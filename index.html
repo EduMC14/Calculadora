@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+  <script defer src="app.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="container-Calculator">
+      <h1>Calculadora de Pension para la bendi</h1>
+      <input type="text" id="input" placeholder="Introduce valores" readonly="">
+      <div class="containerButtons"> 
+        <button id="buttonC" onclick="reset()">C</button>
+        <button onclick="getCharts(0)">0</button>
+        <button onclick="getCharts(1)">1</button>
+        <button onclick="getCharts(2)">2</button>
+        <button onclick="getCharts(3)">3</button>
+        <button onclick="getCharts(4)">4</button>
+        <button onclick="getCharts(5)">5</button>
+        <button onclick="getCharts(6)">6</button>
+        <button onclick="getCharts(7)">7</button>
+        <button onclick="getCharts(8)">8</button>
+        <button onclick="getCharts(9)">9</button>
+        <button onclick="getCharts('+')">+</button>
+        <button onclick="getCharts('-')">-</button>
+        <button onclick="getCharts('/')">/</button>
+        <button onclick="getCharts('*')">*</button>
+
+        
+        <button onclick="functionDelete()">⌫</button>
+        <button onclick="getResult()">=</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
